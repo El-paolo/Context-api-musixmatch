@@ -23,7 +23,6 @@ const Songs = () => {
       )}
     </Fragment>
   );
-
 };
 
 export default Songs;
