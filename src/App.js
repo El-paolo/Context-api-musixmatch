@@ -1,8 +1,8 @@
 import React from "react";
 //react-router v6
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LyricsContextProvider from "./contexts/LyricsContext";
 import SongsContextProvider from "./contexts/SongsContext";
-import LyricsContextProvider, { LyricsContext } from "./contexts/LyricsContext";
 import Header from "./components/Common/Header";
 import Songs from "./components/Songs";
 import Lyrics from "./components/Lyrics";
@@ -24,9 +24,9 @@ const App = () => (
 
         <Route path="/lyrics/track/:commontrack_id"
           element={
-          <LyricsContext.Provider>
+          <LyricsContextProvider>
             <Lyrics />
-          </LyricsContext.Provider>
+          </LyricsContextProvider>
         }/>
 
         <Route path ="*" element={<NotFound />}/>
