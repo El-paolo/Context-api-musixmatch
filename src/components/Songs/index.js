@@ -6,11 +6,11 @@ import Message from "../Common/Message";
 import Tracks from "./Tracks";
 
 const Songs = () => {
-  const { validateQtrack, doneFetch, tracks, text } = useContext(SongsContext);
+  const { validateQTrack , doneFetch, tracks, text } = useContext(SongsContext);
 
   return (
     <Fragment>
-      <SearchTracks validateQtrack={validateQtrack} />
+      <SearchTracks validateQtrack={validateQTrack} />
 
       {doneFetch ? (
         tracks.length ? (
