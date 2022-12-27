@@ -68,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+#A thing to consider is that, i used anywhere heroku so for using the app you need to request a key in the following link and the you'll be ready to go.
+https://cors-anywhere.herokuapp.com/corsdemo
